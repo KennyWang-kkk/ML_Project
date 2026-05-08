@@ -1,0 +1,24 @@
+{
+  "CLASSIFIER_EPOCHS": 5,
+  "DIFFUSION_EPOCHS": 5,
+  "SYNTHETIC_PER_CLASS": 500,
+  "NUM_DIFFUSION_STEPS": 200,
+  "PGD_STEPS": 40,
+  "EVAL_REPEATS": 3,
+  "config": {
+    "data_dir": "data",
+    "output_dir": "outputs",
+    "run_name": "diffusion_augmented_mnist",
+    "epochs": 5,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seed": 42,
+    "temperature": 5.0,
+    "kd_alpha": 0.5,
+    "adv_weight": 0.5,
+    "pgd_steps": 40,
+    "pgd_step_size": 0.01,
+    "adv_train_epsilon": 0.1,
+    "quick_test": false
+  }
+}
