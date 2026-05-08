@@ -1,0 +1,16 @@
+{
+  "data_dir": "data",
+  "output_dir": "outputs",
+  "run_name": "multi_seed_repeated",
+  "epochs": 15,
+  "batch_size": 128,
+  "lr": 0.001,
+  "seed": 44,
+  "temperature": 5.0,
+  "kd_alpha": 0.5,
+  "adv_weight": 0.5,
+  "pgd_steps": 40,
+  "pgd_step_size": 0.01,
+  "adv_train_epsilon": 0.1,
+  "quick_test": false
+}
